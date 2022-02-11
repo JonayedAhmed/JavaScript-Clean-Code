@@ -115,3 +115,32 @@ class SuperArray extends Array {
  }
 }
 ```
+
+
+## 3. Conditionals
+
+### 3.1 Type Checking
+
+Since JS is untypes it’s better to avoid type checking. If Type checking is done it’s better to use strong type check === instead of using ==
+
+### 3.2 Conditional shorthand
+
+**Bad**
+```javascript
+if (isValid === true) {
+  // do something...
+}
+if (isValid === false) {
+  // do something...
+}
+```
+
+**Good**
+```javascript
+if (isValid) {
+  // do something...
+}
+if (!isValid) {
+  // do something...
+}
+``
