@@ -144,3 +144,14 @@ if (!isValid) {
   // do something...
 }
 ``
+
+## 4. ES Classes
+
+### 4.1 General Suggestions 
+
+- Prefer 2015 class / ES6 over ES5
+- Try to use method chaining
+
+## 5. Avoid Using Eval
+
+Trying to avoid eval function should be avoided as it's not safe and it opens a potential thread vector for miscellaneous programmers.
