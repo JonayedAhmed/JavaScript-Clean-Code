@@ -1,4 +1,4 @@
-# JavaScript-Clean-Code
+# JavaScript-Clean-Code 
 
 ## 1. Variables
 
@@ -13,7 +13,7 @@ We can declare variables in JS using three keywords:
 
 - It's good practice to declare meaningful, pronounceable and searchable names as variables. 
 - It’s better to use explanatory variables and use camelCase for variable and function names.
-- Try to use the same type of vocabulary for similar functions and variables.(getUseInfo(), getClientData(), getCustomerRecord() => getUserInfo())
+- We should Try to use the same type of vocabulary for similar functions and variables.(getUseInfo(), getClientData(), getCustomerRecord() => getUserInfo())
 
 ### 1.3 Use Default argument 
 
@@ -40,18 +40,17 @@ function createMicrobrewery(name = "Hipster Brew Co.") {
 
 ### 2.1 Function Arguments
 
-- Try using minimum arguments. It’s best to use 2 arguments as standard. 
-- Make an object of all the information and pass them as a single argument.
+- We should try to use minimum arguments. It’s best to use 2 arguments as standard. 
+- We should try to make an object of all the information and pass them as a single argument.
 
 ### 2.2 In General About Function
 
-- Function should do only one thing (either answer something or do something but not both). So, Avoid conditional if possible.
+- Function should do only one thing (either answer something or do something but not both). So, we should try to avoid conditional if possible.
 - Function names must match what is done inside the function.
 - Function should ensure reusability of code and avoid duplication.
 - Favor functional programming over imperative programming.
-- Avoid negative conditioning
+- Avoid negative conditioning.
 - Skip Over optimization.
-- 
 
 ### 2.3 Encapsulate Conditionals
 **Bad:**
@@ -98,7 +97,7 @@ function createPublicFile(name) {
 
 ### 2.5 Global Pollution
 
-Try not to pollute the globals i.e if it's necessary to extend existing object use ES6 classes or inheritance instead of creating the function on the prototype chain of the native object.
+We should try not to pollute the globals i.e try to extend existing object using ES6 classes or inheritance, instead of creating the function on the prototype chain of the native object.
 
 **Bad**
 ```javascript
@@ -120,7 +119,7 @@ class SuperArray extends Array {
 
 ### 3.1 Type Checking
 
-Since JS is untypes it’s better to avoid type checking. If Type checking is done it’s better to use strong type check === instead of using ==
+Since JS is untyped it’s better to avoid type checking. If Type checking is done it’s better to use strong type check === instead of using ==
 
 ### 3.2 Conditional shorthand
 
@@ -146,19 +145,17 @@ if (!isValid) {
 
 ## 4. ES Classes
 
-### 4.1 General Suggestions 
-
-- Prefer 2015 class / ES6 over ES5
-- Try to use method chaining
+- Preferable to use 2015 class / ES6 over ES5.
+- Try to use method chaining.
 
 ## 5. Avoid Using Eval
 
-Trying to avoid eval function should be avoided as it's not safe and it opens a potential thread vector for miscellaneous programmers.
+Eval function should be avoided as it's not safe and it opens a potential thread vector for miscellaneous programmers.
 
 ## 6. Objects & Data Structures
-- Use getters and setters (helps in encapsulation, makes adding validation simple, easy to add logging and error handling)
-- Make the object have private members (Can be achieved with ES5)
-- Prefer composition over inheritance
+- It's better to use getters and setters (helps in encapsulation, makes adding validation simple, easy to add logging and error handling)
+- We should try to make the object have private members (Can be achieved with ES5)
+- Composition is more prefer over inheritance
 
 
 ## 7. User Template Literals for Concatenation
@@ -184,15 +181,15 @@ It is a popular way of handling asynchronous methods in JS but it becomes very c
 
 ## 9. SOLID
 
-This is the convention that should be taken to consideration most for clean code. Since this needs a detail understanding.
+This is the convention that should take into consideration most for clean code. This is the convention to write more clean and bug free code.
 [Solid] https://github.com/ryanmcdermott/clean-code-javascript#solid
 
 
 ## 10. Comments
 
-- Avoid Unnecessary comments. Don’t make it redundant and too descriptive.
-- Use as a clarification of code.
-- Remove commented out code from codebase.
+- We should Avoid Unnecessary comments and try not make it redundant and too descriptive.
+- It should be used just as a clarification of code.
+- Commented out code should be removed from codebase.
 
 
 ## Reference:
