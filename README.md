@@ -17,4 +17,23 @@ We can declare variables in JS using three keywords:
 
 ### Use Default argument 
 
+This will help to get less error as faulty value or null or NaN will not replace default value in the second scenario.
+
+**Bad:**
+
+```javascript
+function createMicrobrewery(name) {
+  const breweryName = name || "Hipster Brew Co.";
+  // ...
+}
+```
+
+**Good**
+
+```javascript
+function createMicrobrewery(name = "Hipster Brew Co.") {
+  // ...
+}
+```
+
 
