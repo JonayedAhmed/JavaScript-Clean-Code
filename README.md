@@ -194,3 +194,10 @@ This is the convention that should be taken to consideration most for clean code
 - Use as a clarification of code.
 - Remove commented out code from codebase.
 
+
+## Reference:
+1. https://github.com/ryanmcdermott/clean-code-javascript
+2. https://blog.bitsrc.io/writing-clean-code-in-javascript-dd584bbe1874
+3. https://javascript.plainenglish.io/javascript-clean-code-best-practices-461c24c53cae
+4. https://www.tutorialsteacher.com/javascript/javascript-variable#:~:text=Variable%20means%20anything%20that%20can,declare%20a%20variable%20in%20JavaScript.
+5. https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/
