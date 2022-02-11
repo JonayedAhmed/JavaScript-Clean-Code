@@ -116,7 +116,6 @@ class SuperArray extends Array {
 }
 ```
 
-
 ## 3. Conditionals
 
 ### 3.1 Type Checking
@@ -143,7 +142,7 @@ if (isValid) {
 if (!isValid) {
   // do something...
 }
-``
+```
 
 ## 4. ES Classes
 
@@ -155,3 +154,43 @@ if (!isValid) {
 ## 5. Avoid Using Eval
 
 Trying to avoid eval function should be avoided as it's not safe and it opens a potential thread vector for miscellaneous programmers.
+
+## 6. Objects & Data Structures
+- Use getters and setters (helps in encapsulation, makes adding validation simple, easy to add logging and error handling)
+- Make the object have private members (Can be achieved with ES5)
+- Prefer composition over inheritance
+
+
+## 7. User Template Literals for Concatenation
+
+Back tickles ` ` is an easy way for concatenation and we can define a placeholder ${} in to set any value inside that string.
+
+
+**Bad**
+```javascript
+var name = 'Peter';
+var message = 'Hi'+ name + ',';
+```
+
+**Good**
+```javascript
+var name = 'Peter';
+var message = `Hi ${name},`
+```
+
+## 8. Avoid Callbacks
+It is a popular way of handling asynchronous methods in JS but it becomes very complicated as the code starts to grow and there are multiple nested callbacks.
+
+
+## 9. SOLID
+
+This is the convention that should be taken to consideration most for clean code. Since this needs a detail understanding.
+[Solid] https://github.com/ryanmcdermott/clean-code-javascript#solid
+
+
+## 10. Comments
+
+- Avoid Unnecessary comments. Don’t make it redundant and too descriptive.
+- Use as a clarification of code.
+- Remove commented out code from codebase.
+
