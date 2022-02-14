@@ -178,11 +178,69 @@ var message = `Hi ${name},`
 ## 8. Avoid Callbacks
 It is a popular way of handling asynchronous methods in JS but it becomes very complicated as the code starts to grow and there are multiple nested callbacks.
 
+**Bad**
+```javascript
+const makeBurger = nextStep => {
+  getBeef(function (beef) {
+    cookBeef(beef, function (cookedBeef) {
+      getBuns(function (buns) {
+        putBeefBetweenBuns(buns, cookedBeef, function(burger) {
+          // nextStep(burger)
+        })
+      })
+    })
+  })
+}
+
+// Make and serve the burger
+makeBurger(function (burger) {
+  serve(burger)
+})
+```
+
+
+**Good**
+```javascript
+const makeBurger = () => {
+  return getBeef()
+    .then(beef => cookBeef(beef))
+    .then(cookedBeef => getBuns(cookedBeef))
+    .then(bunsAndBeef => putBeefBetweenBuns(bunsAndBeef))
+}
+
+// Make and serve burger
+makeBurger()
+  .then(burger => serve(burger))
+```
+
+**OR**
+
+We can take advantage of the single-argument style with promises and make the functions look more readable.
+
+```javascript
+const makeBurger = () => {
+  return getBeef()
+    .then(cookBeef)
+    .then(getBuns)
+    .then(putBeefBetweenBuns)
+}
+
+// Make and serve burger
+makeBurger()
+  .then(serve)
+```
+
 
 ## 9. SOLID
 
-This is the convention that should take into consideration most for clean code. This is the convention to write more clean and bug free code.
-[Solid] https://github.com/ryanmcdermott/clean-code-javascript#solid
+A good design pattern makes a software system felixible. Without a good design pattern software becomes rigid and fragile. The SOLID design pattern was introduced 
+to solve these problems. 
+  
+  - **S** - Single-responsiblity Principle
+  - **O** - Open-closed Principle
+  - **L** - Liskov Substitution Principle
+  - **I** - Interface Segregation Principle
+  - **D** - Dependency Inversion Principle
 
 
 ## 10. Comments
