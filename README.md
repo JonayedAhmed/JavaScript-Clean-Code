@@ -256,3 +256,4 @@ to solve these problems.
 3. https://javascript.plainenglish.io/javascript-clean-code-best-practices-461c24c53cae
 4. https://www.tutorialsteacher.com/javascript/javascript-variable#:~:text=Variable%20means%20anything%20that%20can,declare%20a%20variable%20in%20JavaScript.
 5. https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/
+6. https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design#single-responsibility-principle
