@@ -1,5 +1,20 @@
 # JavaScript-Clean-Code 
 
+## Table of Contents
+
+1. [Variables](#variables)
+2. [Functions](#functions)
+3. [Conditionals](#conditionals)
+4. [ES Classes](#es-Classes)
+5. [Avoid Using Eval](#avoid-using-eval)
+6. [Objects and Data Structures](#objects-and-data-structures)
+7. [Template Literals](#template-literals)
+8. [Avoid Callbacks](#avoid-callbacks)
+9. [SOLID](#solid)
+10. [Comments](#comments)
+11. [Reference](#reference)
+
+
 ## 1. Variables
 
 ### 1.1 Keywords
@@ -152,13 +167,13 @@ if (!isValid) {
 
 Eval function should be avoided as it's not safe and it opens a potential thread vector for miscellaneous programmers.
 
-## 6. Objects & Data Structures
+## 6. Objects and Data Structures
 - It's better to use getters and setters (helps in encapsulation, makes adding validation simple, easy to add logging and error handling)
 - We should try to make the object have private members (Can be achieved with ES5)
 - Composition is more prefer over inheritance
 
 
-## 7. User Template Literals for Concatenation
+## 7. Template Literals
 
 Back tickles ` ` is an easy way for concatenation and we can define a placeholder ${} in to set any value inside that string.
 
