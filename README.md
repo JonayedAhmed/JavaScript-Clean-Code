@@ -11,7 +11,7 @@
 7. [Template Literals](#template-literals)
 8. [Avoid Callbacks](#avoid-callbacks)
 9. [SOLID](#solid)
-10. [10. Comments](#10.-Comments)
+10. [10. Comments](#10.-comments)
 11. [Reference](#reference)
 
 
