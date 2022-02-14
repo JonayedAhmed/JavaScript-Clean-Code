@@ -246,7 +246,7 @@ makeBurger()
 ```
 
 
-## 9. ##SOLID
+##SOLID
 
 A good design pattern makes a software system felixible. Without a good design pattern software becomes rigid and fragile. The SOLID design pattern was introduced 
 to solve these problems. 
@@ -258,7 +258,7 @@ to solve these problems.
   - **D** - Dependency Inversion Principle
 
 
-## 10. ##Comments
+##Comments
 
 - We should Avoid Unnecessary comments and try not make it redundant and too descriptive.
 - It should be used just as a clarification of code.
