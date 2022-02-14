@@ -15,7 +15,7 @@
 11. [Reference](#reference)
 
 
-## 1.Variables
+## Variables
 
 ### Keywords
 
