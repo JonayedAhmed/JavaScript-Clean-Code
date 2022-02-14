@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-1. [Variables](#variables)
+1. [Variables](#1.variables)
 2. [Functions](#functions)
 3. [Conditionals](#conditionals)
 4. [ES Classes](#es-Classes)
@@ -15,7 +15,7 @@
 11. [Reference](#reference)
 
 
-## Variables
+## 1.Variables
 
 ### Keywords
 
