@@ -282,12 +282,12 @@ to solve these problems.
 **[⬆ back to top](#table-of-contents)**
 
 ## Reference:
-1. https://github.com/ryanmcdermott/clean-code-javascript
-2. https://blog.bitsrc.io/writing-clean-code-in-javascript-dd584bbe1874
-3. https://javascript.plainenglish.io/javascript-clean-code-best-practices-461c24c53cae
-4. https://www.tutorialsteacher.com/javascript/javascript-variable#:~:text=Variable%20means%20anything%20that%20can,declare%20a%20variable%20in%20JavaScript.
-5. https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/
-6. https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design#single-responsibility-principle
-7. https://zellwk.com/blog/nested-callbacks/
+1. [Clean Code Javascript Github](https://github.com/ryanmcdermott/clean-code-javascript)
+2. [Writing Clean Code](https://blog.bitsrc.io/writing-clean-code-in-javascript-dd584bbe1874)
+3. [Clean Code Best Practices](https://javascript.plainenglish.io/javascript-clean-code-best-practices-461c24c53cae)
+4. https://www.tutorialsteacher.com/javascript/javascript-variable#:~:text=Variable%20means%20anything%20that%20can,declare%20a%20variable%20in%20JavaScript.)
+5. [Difference of var let and const](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/)
+6. [SOLID](https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design#single-responsibility-principle)
+7. [Nested Callbacks](https://zellwk.com/blog/nested-callbacks/)
 
 **[⬆ back to top](#table-of-contents)**
