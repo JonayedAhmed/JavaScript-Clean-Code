@@ -1,4 +1,5 @@
-<span style="font-weight:500px; font-size:900PX">JavaScript Clean Code</span>
+# **JavaScript Clean Code**
+# JavaScript Clean Code
 
 ## Table of Contents
 
