@@ -52,6 +52,8 @@ function createMicrobrewery(name = "Hipster Brew Co.") {
 }
 ```
 
+**[⬆ back to top](#table-of-contents)**
+
 ## Functions
 
 ### Function Arguments
@@ -131,6 +133,8 @@ class SuperArray extends Array {
 }
 ```
 
+**[⬆ back to top](#table-of-contents)**
+
 ## Conditionals
 
 ### Type Checking
@@ -159,25 +163,31 @@ if (!isValid) {
 }
 ```
 
+**[⬆ back to top](#table-of-contents)**
+
 ## ES Classes
 
 - Preferable to use 2015 class / ES6 over ES5.
 - Try to use method chaining.
 
+**[⬆ back to top](#table-of-contents)**
+
 ## Avoid Using Eval
 
 Eval function should be avoided as it's not safe and it opens a potential thread vector for miscellaneous programmers.
+
+**[⬆ back to top](#table-of-contents)**
 
 ## Objects and Data Structures
 - It's better to use getters and setters (helps in encapsulation, makes adding validation simple, easy to add logging and error handling)
 - We should try to make the object have private members (Can be achieved with ES5)
 - Composition is more prefer over inheritance
 
+**[⬆ back to top](#table-of-contents)**
 
 ## Template Literals
 
 Back tickles ` ` is an easy way for concatenation and we can define a placeholder ${} in to set any value inside that string.
-
 
 **Bad**
 ```javascript
@@ -190,6 +200,8 @@ var message = 'Hi'+ name + ',';
 var name = 'Peter';
 var message = `Hi ${name},`
 ```
+
+**[⬆ back to top](#table-of-contents)**
 
 ## Avoid Callbacks
 It is a popular way of handling asynchronous methods in JS but it becomes very complicated as the code starts to grow and there are multiple nested callbacks.
@@ -246,6 +258,7 @@ makeBurger()
   .then(serve)
 ```
 
+**[⬆ back to top](#table-of-contents)**
 
 ## SOLID
 
@@ -258,6 +271,7 @@ to solve these problems.
   - **I** - Interface Segregation Principle
   - **D** - Dependency Inversion Principle
 
+**[⬆ back to top](#table-of-contents)**
 
 ## Comments
 
@@ -265,6 +279,7 @@ to solve these problems.
 - It should be used just as a clarification of code.
 - Commented out code should be removed from codebase.
 
+**[⬆ back to top](#table-of-contents)**
 
 ## Reference:
 1. https://github.com/ryanmcdermott/clean-code-javascript
@@ -274,3 +289,5 @@ to solve these problems.
 5. https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/
 6. https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design#single-responsibility-principle
 7. https://zellwk.com/blog/nested-callbacks/
+
+**[⬆ back to top](#table-of-contents)**
