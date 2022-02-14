@@ -199,7 +199,7 @@ makeBurger(function (burger) {
 ```
 
 
-**Good**
+**Good 1**
 ```javascript
 const makeBurger = () => {
   return getBeef()
@@ -213,7 +213,7 @@ makeBurger()
   .then(burger => serve(burger))
 ```
 
-**OR**
+**Good 2**
 
 We can take advantage of the single-argument style with promises and make the functions look more readable.
 
