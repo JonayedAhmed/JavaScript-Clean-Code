@@ -286,22 +286,6 @@ makeBurger()
 
 **[⬆ back to top](#table-of-contents)**
 
-## SOLID
-
-A good design pattern makes a software system felixible. Without a good design pattern software becomes rigid and fragile. The SOLID design pattern was introduced 
-to solve these problems. 
-  
-  - **S** - Single-responsiblity Principle
-    - A class should have one and only one reason to change, meaning that a class should have only one job.
-  - **O** - Open-closed Principle
-    - Objects or entities should be open for extension but closed for modification i.e This means that a class should be extendable without modifying the class itself.
-  - **L** - Liskov Substitution Principle
-  - **I** - Interface Segregation Principle
-    - A client should never be forced to implement an interface that it doesn’t use, or clients shouldn’t be forced to depend on methods they do not use.
-  - **D** - Dependency Inversion Principle
-    - Entities must depend on abstractions, not on concretions. It states that the high-level module must not depend on the low-level module, but they should depend on abstractions.
-
-**[⬆ back to top](#table-of-contents)**
 
 ## Comments
 
