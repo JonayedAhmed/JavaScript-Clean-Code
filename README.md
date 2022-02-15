@@ -10,9 +10,8 @@
 6. [Objects and Data Structures](#objects-and-data-structures)
 7. [Template Literals](#template-literals)
 8. [Avoid Callbacks](#avoid-callbacks)
-9. [SOLID](#solid)
-10. [Comments](#comments)
-11. [Reference](#reference)
+9. [Comments](#comments)
+10. [Reference](#reference)
 
 
 ## Variables
