@@ -21,7 +21,7 @@ and reduce the possibility of unwanted re-declarations.
 ### Keywords
 
 We can declare variables in JS using three keywords:
-- var (most commonly used keyword to declare a variable. Available globally if declared outside the function and works as local variable if declared inside a function)
+- var (most commonly used keyword to declare a variable. Variables declared without var keyword works as a global variable. Works as private variable if declared inside a function)
 - const (used while using a constant value which may not change further)
 - let (used when there is high change of changing the value continuously)
 
@@ -175,6 +175,23 @@ if (!isValid) {
 ## Avoid Using Eval
 
 Eval function should be avoided as it's not safe and it opens a potential thread vector for miscellaneous programmers.
+
+**Bad**
+```javascript
+var x = 100
+var userInput =  "1.573*Math.pow(10,-10)*Math.pow(x,3) - 2.558*Math.pow(10,-07)*Math.pow(x,2) + 1.375*Math.pow(10,-04)*x - 2.166*Math.pow(10,-02)"
+console.log(eval(userInput))
+```
+
+**Good**
+```javascript
+var x = 100
+var userInput =  "1.573*Math.pow(10,-10)*Math.pow(x,3) - 2.558*Math.pow(10,-07)*Math.pow(x,2) + 1.375*Math.pow(10,-04)*x - 2.166*Math.pow(10,-02)"
+userInput = userInput.replace(/x/g, x)
+
+let result = Function("return " + userInput)(); 
+console.log(result)
+```
 
 **[⬆ back to top](#table-of-contents)**
 
