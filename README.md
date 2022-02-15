@@ -16,7 +16,8 @@
 
 
 ## Variables
-
+It is a good coding practice to put all declarations at the top of each script or function. We should try to provide a single place to look for local variables 
+and reduce the possibility of unwanted re-declarations.
 ### Keywords
 
 We can declare variables in JS using three keywords:
@@ -181,6 +182,15 @@ Eval function should be avoided as it's not safe and it opens a potential thread
 - It's better to use getters and setters (helps in encapsulation, makes adding validation simple, easy to add logging and error handling)
 - We should try to make the object have private members (Can be achieved with ES5)
 - Composition is more prefer over inheritance
+
+### Don't Use new Object()
+- Use **""** instead of **new String()**
+- Use **0** instead of **new Number()**
+- Use **false** instead of **new Boolean()**
+- Use **{}** instead of **new Object()**
+- Use **[]** instead of **new Array()**
+- Use **/()/** instead of **new RegExp()**
+- Use **function (){}** instead of **new Function()**
 
 **[⬆ back to top](#table-of-contents)**
 
